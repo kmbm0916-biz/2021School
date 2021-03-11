@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+*{
+	background-color : skyblue;
+	margin : 0;
+	padding : 0;
+	bow-sizing : border-box;
+}

@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<%-- 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세  --%>
+<title>제목을 여기에 입력하세요</title>
+<%!
+	int a = 10;
+	int b = 20;
+
+%>
+</head>
+<body>
+1
+<% out.println(a); %>
+2
+
+</body>
+</html>
