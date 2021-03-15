@@ -1,0 +1,10 @@
+@charset "EUC-KR";
+
+.userGender_btn_group {
+	width : 100%;
+	margin : 0 auto;
+}
+
+.userGender_btn_group > .btn-group {
+	margin : 0 auto;
+}

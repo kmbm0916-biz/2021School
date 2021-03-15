@@ -1,0 +1,59 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+
+<%@ include file="header.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+
+</head>
+<body>
+
+<div class="container">
+2
+<div class="clo-lg-4"></div>
+3
+<div class="clo-lg-4">
+4
+  <div class="jumbotron" style="padding-top:30px">
+5
+    <form action="loginAction.jsp" method="post">
+6
+      <h4 style="text-align:center;">로그인</h4>
+7
+      <div class="form-group">
+8
+        <input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20" />
+9
+      </div><div class="form-group">
+10
+        <input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20" />
+11
+        </div>
+12
+      <input type="submit" class="btn btn-primary form-control" value="로그인"/>
+13
+    </form>
+14
+  </div>
+15
+</div>
+16
+<div class="clo-lg-4">
+17
+</div>
+18
+</div>
+
+
+</body>
+</html>

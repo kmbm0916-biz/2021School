@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+
+<%@ include file="header.jsp" %>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+.btn btn-default{
+backgrond-color : red;
+}
+
+</head>
+<body>
+
+
+<div class="container">
+<div class="clo-lg-4"></div>
+<div class="clo-lg-4">
+	<div class="jumbotron" style="padding-top:30px">
+	
+		<form action="loginAction.jsp" method="post">
+		
+			<h4 style="text-align:center;">로그인</h4>
+			
+			<div class="form-group">
+			
+				<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20" />
+				
+			</div>
+			
+			<div class="form-group">
+			
+				<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20" />
+				
+			</div>
+				
+			<div class="form-group">
+			
+				<input type="name" class="form-control" placeholder="이름" name="userPassword" maxlength="20" />
+				
+			</div>
+			
+			
+			<div class="btn-group" role="group" aria-label="...">
+  					<button type="button" class="btn btn-default">남</button>
+  					<button type="button" class="btn btn-default">여</button>
+
+			</div>
+				
+				
+			<input type="submit" class="btn btn-primary form-control" value="로그인"/>
+			
+		</form>
+		
+	</div>
+	
+</div>
+
+
+<div class="clo-lg-4">
+</div>
+</div>
+
+
+</body>
+</html>
