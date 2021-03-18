@@ -15,6 +15,20 @@
 		<jsp:include page="header.jsp"></jsp:include>
 		<section>
 			<h1><%=section %></h1>
+			<%
+				switch(section){
+					case "App" :  
+			%>
+								<jsp:include page="sub1.jsp"></jsp:include>
+			<%
+					break;
+					case "ML" :
+			%>
+								<jsp:include page="sub2.jsp"></jsp:include>
+			<%
+					break;
+				}
+			%>
 		</section>
 		<jsp:include page="footer.jsp"></jsp:include>
 	</body>

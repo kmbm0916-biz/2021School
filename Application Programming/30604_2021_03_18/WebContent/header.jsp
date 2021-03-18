@@ -13,10 +13,10 @@
 		<nav>
 			<ul>
 				<li><a href="index.jsp?section=Home">홈</a></li>
-				<li><a href="index.jsp?section=응용프로그래밍 서브페이지">응용프로그래밍</a></li>
-				<li><a href="index.jsp?section=머신러닝 서브페이지">머신러닝</a></li>
-				<li><a href="index.jsp?section=빅데이터분석 서브페이지">빅데이터분석</a></li>
-				<li><a href="index.jsp?section=스마트문화앱콘텐츠제작 서브페이지">스마트문화앱콘텐츠제작</a></li>
+				<li><a href="index.jsp?section=App">응용프로그래밍</a></li>
+				<li><a href="index.jsp?section=ML">머신러닝</a></li>
+				<li><a href="index.jsp?section=BA">빅데이터분석</a></li>
+				<li><a href="index.jsp?section=SCAM">스마트문화앱콘텐츠제작</a></li>
 			</ul>
 		</nav>
 	</body>
