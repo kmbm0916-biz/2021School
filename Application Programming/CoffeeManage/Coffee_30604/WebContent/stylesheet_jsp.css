@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+
+/*  index.jsp 내부
+	header, footer 스타일시트
+	Start
+ */
+
+header {
+	width : 100%;
+	height : 50px;
+	background-color : #dbdbdb;
+}
+
+h2 {
+	width : 100%;
+	height :50px;
+	line-height : 50px;
+	text-align : center;
+}
+
+ul {
+	width : 100%;
+	height : 30px;
+	background-color : #5e5e5e;
+}
+
+li {
+	width : 19%;
+	height : 30px;
+	display : inline-block;
+	text-align : center;
+	line-height : 30px;
+	background-color : #5e5e5e;
+}
+
+a {
+	text-decoration : none;
+	text-align : center;
+	color : black;
+	font-weight : bold;
+}
+
+footer {
+	width : 100%;
+	height : 40px;
+	background-color : #444444;
+}
+
+footer p {
+	width : 100%;
+	line-height : 40px;
+	color : white;
+	text-align : center;
+}
+
+/*  index.jsp 내부
+	header, footer 스타일시트
+	End
+ */
+ 
+/*  c_select.jsp 내부
+	Start
+*/
+ 
+ #c_select_h1 {
+ 	width : 100%;
+ 	height : 40px;
+ 	text-align : center;
+ 	line-height : 40px;
+ 	font-weight : bold;
+ }
+ 
+.table_con {
+	width : 100%;
+	margin-top : 10px;
+	margin-bottom : 30px;
+}
+ 
+table {
+	margin : 0 auto;
+	border : 1px black solid;
+} 
+ 
+table tr td {
+	border : 1px black solid;
+}
+ 
+ 
+/*  c_select.jsp 내부
+	End
+*/
+
+/*  c_insert.jsp 내부
+	Start
+*/
+
+td button {
+	width : 80px;
+	height : 25px;
+}
+ 
+#submit_col {
+	margin : 0 auto;
+	text-align : center;
+}
+ 
+ /*  c_insert.jsp 내부
+	Start
+*/
+
+/*  c_index.jsp 내부
+	Start
+*/
+
+.home_con {
+	margin-top : 20px;
+	margin-bottom : 30px;
+}
+
+.home_con h4 {
+	width : 100%;
+	height : auto;
+	text-align : center;
+}
+
+.home_con p {
+	margin-left : 10px;
+}
+
+/*  c_index.jsp 내부
+	Start
+*/
